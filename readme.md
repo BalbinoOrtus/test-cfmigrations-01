@@ -10,4 +10,4 @@ i used this steps to break this repo
 -   install commandbox-migrations
 -   migrate init: this modifies my box.json
 -   reload or r
--   migrate install
+-   migrate install: breaks because i have not updated the .env but because i thought i had a valid working datasource in .cfconfig.json
