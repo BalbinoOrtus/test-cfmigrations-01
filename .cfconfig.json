@@ -1,0 +1,31 @@
+{
+    "datasources":{
+        "dstest":{
+            "allowAlter":true,
+            "allowCreate":true,
+            "allowDelete":true,
+            "allowDrop":true,
+            "allowGrant":true,
+            "allowInsert":true,
+            "allowRevoke":true,
+            "allowSelect":true,
+            "allowUpdate":true,
+            "alwaysSetTimeout":"true",
+            "blob":"false",
+            "class":"com.mysql.cj.jdbc.Driver",
+            "clob":"false",
+            "connectionTimeout":"1",
+            "custom":"characterEncoding=UTF-8&serverTimezone=America%2FRegina&maxReconnects=3",
+            "database":"itblatamdb",
+            "dbdriver":"MySQL",
+            "dsn":"jdbc:mysql://{host}:{port}/{database}",
+            "host":"localhost",
+            "metaCacheTimeout":"60000",
+            "password":"root",
+            "port":"3307",
+            "storage":"false",
+            "username":"root",
+            "validate":"false"
+        }
+    }
+}
